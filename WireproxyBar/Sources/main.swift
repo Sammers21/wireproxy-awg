@@ -204,7 +204,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
                 ? NSColor(red: 0.2, green: 0.85, blue: 0.3, alpha: 1.0)   // bright green
                 : NSColor(red: 1.0, green: 0.25, blue: 0.25, alpha: 1.0)  // bright red
             button.image = makeColoredDot(color: color)
-            button.title = " VPN"
+            button.title = ""
         }
 
         // ── Status line in dropdown ──
